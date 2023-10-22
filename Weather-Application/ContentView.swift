@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isNight:Bool = false
+    
     var body: some View {
         ZStack{
-            BackgroundView(topColor: .blue, bottomColor: Color("lightBlue"))
+            BackgroundView(isNight: $isNight)
             VStack{
                 CityTextView(cityText: "Bangalore,KA")
-                BigView(imageName: "cloud.sun.fill", temperature: "28°")
+                BigView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: "28°")
                 HorizontalWeatherView()
                 Spacer()
-                ButtonView(text: "Change Day Time", textColor: .blue, backgroundColor: .white)
+                Button{
+                    isNight.toggle()
+                    
+                }label: {
+                    ButtonView(text: "Change Day Time", textColor: .blue, backgroundColor: .white)
+                }
                 Spacer()
-                
             }
         }
     }
@@ -53,10 +59,9 @@ struct WeatherDayView: View {
 }
 
 struct BackgroundView: View {
-    @State var topColor:Color
-    @State var bottomColor:Color
+    @Binding var isNight:Bool
     var body: some View {
-        LinearGradient(colors: [topColor,bottomColor], startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(colors: [isNight ? .black : .blue,isNight ? .gray : Color("lightBlue")], startPoint: .topLeading, endPoint: .bottomTrailing)
             .edgesIgnoringSafeArea(.all)
     }
 }
@@ -72,11 +77,11 @@ struct CityTextView: View {
 }
 
 struct BigView: View {
-    @State var imageName:String
-    @State var temperature:String
+     var imageName:String
+     var temperature:String
     var body: some View {
         VStack(spacing: 8){
-            Image(systemName: "cloud.sun.fill")
+            Image(systemName: imageName)
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -114,20 +119,18 @@ struct HorizontalWeatherView: View {
     }
 }
 
-//struct ButtonView: View {
-//    @State var text:String
-//    @State var textColor:Color
-//    @State var backgroundColor:Color
-//    var body: some View {
-//        Button{
-//            print("tapped")
-//        }label: {
-//            Text("Change Day Time")
-//                .frame(width: 280,height: 50)
-//                .background(backgroundColor)
-//                .font(.system(size:20,weight: .bold,design: .default))
-//                .foregroundColor(textColor)
-//                .cornerRadius(10)
-//        }
-//    }
-//}
+struct ButtonView: View {
+     var text:String
+     var textColor:Color
+     var backgroundColor:Color
+    var body: some View {
+        
+            Text("Change Day Time")
+                .frame(width: 280,height: 50)
+                .background(backgroundColor)
+                .font(.system(size:20,weight: .bold,design: .default))
+                .foregroundColor(textColor)
+                .cornerRadius(10)
+        
+    }
+}

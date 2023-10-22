@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28DF3ED9-1086-4B74-9F62-CC46C1D2E543"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDD480FA-E068-410D-BFC6-27190E4D709B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Weather-Application/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "176CA408-DEC6-4329-956B-797E071A809B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Weather-Application/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "176CA408-DEC6-4329-956B-797E071A809B - 58dadaf8984eae19"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Weather_Application.CityTextView, Weather_Application.BigView, Weather_Application.HorizontalWeatherView, SwiftUI.Spacer, SwiftUI.Button&lt;Weather_Application.ButtonView&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(Weather_Application.BackgroundView, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Weather_Application.CityTextView, Weather_Application.BigView, Weather_Application.HorizontalWeatherView, SwiftUI.Spacer, SwiftUI.Button&lt;Weather_Application.ButtonView&gt;, SwiftUI.Spacer)&gt;&gt;)&gt; in Weather_Application.ContentView.body.getter : some"
+                  moduleName = "Weather-Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreenidhivm/Desktop/uiapps/Weather-Application/Weather-Application/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "176CA408-DEC6-4329-956B-797E071A809B - b26b485cb9ab2c37"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(Weather_Application.CityTextView, Weather_Application.BigView, Weather_Application.HorizontalWeatherView, SwiftUI.Spacer, SwiftUI.Button&lt;Weather_Application.ButtonView&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(Weather_Application.BackgroundView, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Weather_Application.CityTextView, Weather_Application.BigView, Weather_Application.HorizontalWeatherView, SwiftUI.Spacer, SwiftUI.Button&lt;Weather_Application.ButtonView&gt;, SwiftUI.Spacer)&gt;&gt;)&gt; in Weather_Application.ContentView.body.getter : some"
+                  moduleName = "Weather-Application"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shreenidhivm/Desktop/uiapps/Weather-Application/Weather-Application/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "043DBC1A-A846-4AB5-A620-3721C2E4A868"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Weather-Application/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "BigView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2BA0756-8C0B-4B28-999A-12F5220848BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Weather-Application/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

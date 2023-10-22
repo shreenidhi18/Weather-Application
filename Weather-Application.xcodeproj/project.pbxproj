@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A07506E72AE57A5B00220C0A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07506E62AE57A5B00220C0A /* ButtonView.swift */; };
 		A081FA402AE5562800107063 /* Weather_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081FA3F2AE5562800107063 /* Weather_ApplicationApp.swift */; };
 		A081FA422AE5562800107063 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081FA412AE5562800107063 /* ContentView.swift */; };
 		A081FA442AE5562900107063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081FA432AE5562900107063 /* Assets.xcassets */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A07506E62AE57A5B00220C0A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		A081FA3C2AE5562800107063 /* Weather-Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A081FA3F2AE5562800107063 /* Weather_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ApplicationApp.swift; sourceTree = "<group>"; };
 		A081FA412AE5562800107063 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				A081FA412AE5562800107063 /* ContentView.swift */,
 				A081FA432AE5562900107063 /* Assets.xcassets */,
 				A081FA452AE5562900107063 /* Preview Content */,
-				A07506E62AE57A5B00220C0A /* ButtonView.swift */,
 			);
 			path = "Weather-Application";
 			sourceTree = "<group>";
@@ -262,7 +259,6 @@
 			files = (
 				A081FA422AE5562800107063 /* ContentView.swift in Sources */,
 				A081FA402AE5562800107063 /* Weather_ApplicationApp.swift in Sources */,
-				A07506E72AE57A5B00220C0A /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
